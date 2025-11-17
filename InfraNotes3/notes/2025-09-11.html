@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<style>
+			.NavBar a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+			}
+			.NavBar {
+			  background-color: #333;
+			  overflow: hidden;
+			 }
+			 
+			 .NavBar a:hover {
+			  background-color: rgb(0, 255, 0);
+			  color: black;
+			}
+			
+			.NavBar a.active {
+			  background-color: rgb(255, 0, 0);
+			  color: white;
+			}
+			
+			ul li {
+				list-style-type: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="NavBar">
+			<a href="../Notes.html">Return</a>
+		</div>
+		<h1>2025-08-15: Circuity</h1>
+		<img src="../assets/OIP.png" alt="Circuits">
+		<p>Middle one of a transistor is the base of it or the input</p>
+		
+		<h2>OR</h2>
+		<p>In an OR gate, if either of the input is positive, it is positive (A V B)</p>
+		<ul>
+			<li>0 + 0 = 0 </li>
+			<li>1 + 0 = 1</li>
+			<li>0 + 1 = 1</li>
+			<li>1 + 1 = 1</li>
+		</ul>
+		
+		<h2>AND</h2>
+		<p>In an AND gate, both of the input must be positive to be positive (A ^ B)</p>
+		<ul>
+			<li>0 + 0 = 0</li>
+			<li>1 + 0 = 0</li>
+			<li>0 + 1 = 0</li>
+			<li>1 + 1 = 1</li>
+		</ul>
+		
+		<h2>NAND</h2>
+		<p>It is the reverse of a AND gate in absolute terms</p>
+		<ul>
+			<li>0 + 0 = 1</li>
+			<li>0 + 1 = 1</li>
+			<li>1 + 0 = 1</li>
+			<li>1 + 1 = 1</li>
+		</ul>
+		<h2>XOR</h2>
+		<p>it is an exclusive gate, meaning both inputs must be different</p>
+		<ul>
+			<li>0 + 0 = 0</li>
+			<li>1 + 0 = 1</li>
+			<li>0 + 1 = 1</li>
+			<li>1 + 1 = 0</li>
+		</ul>
+	</body>
+</html>
