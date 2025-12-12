@@ -10,6 +10,9 @@
 			<a href="../Notes.html">Return</a>
 		</nav>
 		<h1>2025-11-24 and beyond: Networking and Security</h1>
+		<nav display = "flex">
+			<p><a href="#Network">Network operations</a></p>
+		</nav>
 		<h2>Network</h2>
 		<p>A network is when multiple devices are connected to each other, either wirelessly or wired.<br>They either share data with each other or share power with each other.</p>
 		<br>
@@ -32,20 +35,20 @@
 		
 		<h3>Network Hardware</h3>
 		<ol>
-			<li>Network Interface Card (NIC)<br>Allows a computer to connect to a network, can be wired or wireless</li>
-			<li>Switch<br>Connect devices in the same local network, sends packets of data</li>
-			<li>Router<br>Connect to networks. Forwards packets to other networks (e.g., your ISP (your internet Provider)</li>
-			<li>Modem<br>Convert data from and to your ISP</li>
-			<li>Transport medium<br>Transport your data across the ISP or other providers Network</li>
+			<li><strong>Network Interface Card (NIC)</strong><br>Allows a computer to connect to a network, can be wired or wireless</li>
+			<li><strong>Switch</strong><br>Connect devices in the same local network, sends packets of data</li>
+			<li><strong>Router</strong><br>Connect to networks. Forwards packets to other networks (e.g., your ISP (your internet Provider)</li>
+			<li><strong>Modem</strong><br>Convert data from and to your ISP</li>
+			<li><strong>Transport medium</strong><br>Transport your data across the ISP or other providers Network</li>
 		</ol>
 		
-		<h3>How networks work?</h3>
+		<h3 id="Network">How networks work?</h3>
 		<p>A network is like a postal system</p>
 		<br>
-		<p>Data = letters</p>
-		<p>IP addresses= Street addresses</p>
-		<p>Routers = post offices</p>
-		<p>Protocols = rules of delivery</p>
+		<p><a href="#data"><strong>Data</a></strong> = letters</p>
+		<p><a href="#IPaddress"><strong>IP addresses</a></strong> = Street addresses</p>
+		<p><a href="#Routers"><strong>Routers</a></strong> = post offices</p>
+		<p><a href="#protocols"><strong>Protocols</a></strong> = rules of delivery</p>
 		
 		<br>
 		<h3>Internet Service Providers (ISP)</h3>
@@ -59,7 +62,7 @@
 		<h3>Network Service Providers (NSPs)</h3>
 		<p>NSPs provide access to the “internet backbone”, the high speed “highways” of the internet</p>
 		
-		<h3>How Networks work: Data (Packet), The letters</h3>
+		<h3 id = "data">How Networks work: Data (Packet), The letters</h3>
 		<p>When you send data (your letter) over a network (webpage, email, file), you computer<br>doesn’t send it as one big piece. Instead, it breaks the data into small units called packets<br>each line of your letter being sent separately).</p>
 		
 		<p>Each packet contains:</p>
@@ -69,4 +72,31 @@
 		</ul>
 		
 		<p>This is basically your message, your mail or letter you wabt to send to a friend</p>
-			
+		<br>
+		<h3 id = "IPaddress">How Networks work: IP addresses, The street address</h3>
+		<p>IP (internet protocol) address is an unique identifier for a device on a network</p>
+		<p>An IP address is like the home address on a letter for your computer</p>
+		
+		<br>
+		
+		<p>Two Versions:</p>
+		<ul>
+			<li>IPv4: 32-bit</li>
+			<li>IPv6: 128-bit</li>
+		</ul>
+		<p>They are the addresses, the doors to all of the devices</p>
+		
+		<h3 id = "Routers">How Networks work: Routers, The post office</h3>
+		<p>They are like the post offices<br>They can connect letters/data to other places to be sent or recieved</p>
+		<ol>
+			<li>They receive the packet</li>
+			<li>They store the data</li>
+			<li>They forwarded the data</li>
+		</ol>
+		<p>Just like how they recieve mail or letters and send them!</p>
+		<br>
+		<h3 id="protocols">How Networks work: Protocols, Transportation</h3>
+		<p>A protocol is a set of rules that devices follow to communicate over a network</p>
+		<br>
+		<p>It is like a language, if devices don’t follow the same rules. They can’t understand each other<br>Most communication on the internet uses layers of protocols.</p>
+		<p>For Example:<br>Writing a letter (HTTP), putting it in an envelope, and sending it (TCP) etc.</p>
