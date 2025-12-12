@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link rel="stylesheet" href="../css/nav.css">
+	</head>
+	<body>
+		<nav class="NavBar">
+			<a href="../Notes.html">Return</a>
+		</nav>
+		<h1>2025-11-13 and 17: Command Line and Git Bash</h1>
+		
+		<h2>File System</h2>
+		<p>How the system organizes information</p>
+		
+		<h2>Commands</h2>
+		<table border="3">
+			<thead>
+				<th>Command</th>
+				<th>What it does</th>
+				<th>In the Library Analogy</th>
+			</thead>
+			<tr>
+				<th>cd (directory)</th>
+				<th>Change directory</th>
+				<th>Explore different shelfs in the library</th>
+			</tr>
+			<tr>
+				<th>ls</th>
+				<th>List contents</th>
+				<th>List the books in the shelf</th>
+			</tr>
+			<tr>
+				<th>mkdir (directory)</th>
+				<th>Make a new folder</th>
+				<th>Create a new shelf</th>
+			</tr>
+			<tr>
+				<th>rm (file)</th>
+				<th>Remove a file</th>
+				<th>Throw away a book</th>
+			</tr>
+			<tr>
+				<th>rm -r (folder)</th>
+				<th>Remove a folder</th>
+				<th>Remove a whole shelf with all books</th>
+			</tr>
+			<tr>
+				<th>my (source)</th>
+				<th>Move a book to a different shelf or rename its title</th>
+				<th>Move a book to a different shelf or rename its title</th>
+			</tr>
+		</table>
+		
+		<h3>Example<h3>
+		<ol>
+			<li>Navigate to the Fiction shelf:<br>Cd /Library/Fiction</li>
+			<li>See which books are there:<br> ls Fiction</li>
+			<li>
+				<ul>
+					<li>mkdir Poetry</li>Mkdir Poetry
+					<li>mkdir /Library/Poetry</li>
+					<li>mkdir ../Poetry</li>
+				</ul>
+			</li>
+			<li>MOve a book from NonFiction to Magazines:<br>mv /Library/NonFiction/History.txt /Library/Magazines/History.txt</li>
+		</ol>
