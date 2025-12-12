@@ -9,59 +9,107 @@
 		<nav class="NavBar">
 			<a href="../Notes.html">Return</a>
 		</nav>
-    <h1>Processors</h1>
-    <p>Processors is the brain of the computer, controlling all<br>of the components of a computer and executing their functions</p>
+		<h1>Processors</h1>
+		<p>Processors is the brain of the computer, controlling all<br>of the components of a computer and executing their functions</p>
 
-    <p>Top companies that produces these chips are <strong>Intel</strong> and <strong>AMD</strong> with other manufacturers existing but not as dominant compared to these two behemonths</p>
+		<p>Top companies that produces these chips are <strong>Intel</strong> and <strong>AMD</strong> with other manufacturers existing but not as dominant compared to these two behemonths</p>
 
-    <h2>CPU Architecture</h2>
-    <ul>
-        <li><strong>Control Unit</strong>: Feeds input and produces outputs of the cpu</li>
-        <li><strong>Arthmetic Logic Unit (ALU)</strong>: Produces the arthmetic and logical operations of the cpu</li>
-        <li><strong>Registers</strong>: Small and highspeed storage which the cpu can access quickly as it is inbuilt within the CPU for the ALU to access</li>
-        <li><strong>Main Memory Unit</strong>: It is the place where the cpu can hold temporary or permanent memory (Through either the memory or storage respectively)</li>
-    </ul>
+		<h2>CPU Architecture</h2>
+		<ul>
+			<li><strong>Control Unit</strong>: Feeds input and produces outputs of the cpu</li>
+			<li><strong>Arthmetic Logic Unit (ALU)</strong>: Produces the arthmetic and logical operations of the cpu</li>
+			<li><strong>Registers</strong>: Small and highspeed storage which the cpu can access quickly as it is inbuilt within the CPU for the ALU to access</li>
+			<li><strong>Main Memory Unit</strong>: It is the place where the cpu can hold temporary or permanent memory (Through either the memory or storage respectively)</li>
+		</ul>
 
-    <br>
-    <h2>Arithmetic Logic Unit (ALU)</h2>
-    <!--TODO: Finish this off later on-->
-    <ul>
-        <li>It is the key part of the CPU (Central Processing Unit</li>
-        <li>It performs all the arithmetic and logical operations that a computer needs to process data</li>
-    </ul>
+		<br>
+		<h2>Arithmetic Logic Unit (ALU)</h2>
+		<!--TODO: Finish this off later on-->
+		<ul>
+			<li>It is the key part of the CPU (Central Processing Unit</li>
+			<li>It performs all the arithmetic and logical operations that a computer needs to process data</li>
+		</ul>
 
-    <h2>Main memory unit (Random Access Memory)</h2>
-    <ul>
-        <li>Random access memory is the main memory of a computer where data and programs are temporaily stored while the cpu using them</li>
-        <li><strong>Temporary access:</strong> holds data and while the computer is on</li>
-		<li><strong>Fast Access:</strong> The CPU can read and write data from RAM much faster than from a hard drive or SSD which is a permanent storage</li>
-		<li><strong>Random Access:</strong> The CPU can go directly to any memory without needing to read the previous address</li>
-    </ul>
+		<h2>Main memory unit (Random Access Memory)</h2>
+		<ul>
+			<li>Random access memory is the main memory of a computer where data and programs are temporaily stored while the cpu using them</li>
+			<li><strong>Temporary access:</strong> holds data and while the computer is on</li>
+			<li><strong>Fast Access:</strong> The CPU can read and write data from RAM much faster than from a hard drive or SSD which is a permanent storage</li>
+			<li><strong>Random Access:</strong> The CPU can go directly to any memory without needing to read the previous address</li>
+		</ul>
+		
+		<h2>Registers:</h2>
+		<ul>
+			<li>Small</li>
+			<li>High speed storage located inside the CPU used to hold data, instructions and addresses</li>
+		</ul>
+		
+		<h2>Control Unit (CU)</h2>
+		<ul>
+			<li>It orchestrats everything like an electrical conducter passing electricity</li>
+			<li>It passes data around</li>
+		</ul>
+		
+		<h2>CPU instruction cycle</h2>
+		<p>Fetch -> Execte -> Decode</p>
+		
+		<h2>Processor Speed</h2>
+		<ul>
+			<li>Speeds are measured in gigahertz (GHz)</li>
+			<li>1 Hertz = 1 clock cycle per second</li>
+			<li>Most processors are near 5 GHz</li>
+		</ul>
+		
+		<h2>Cache</h2>
+		<ul>
+			<li>A small, very fast memory inside or close to the cpu</li>
+			<li>Faster than the RAM</li>
+		</ul>
+		<h3>Levels of Cache</h3>
+		<dl>
+			<dt>L1</dt>
+				<dd>Fastest, smallest in size</dd>
+			<dt>L2</dt>
+				<dd> Very Fast, medium in size</dd>
+			<dt>L3</dt>
+				<dd>Slowest, largest in size</dd>
+		</dl>
+		
+		<h2>Multi Core processors</h2>
+		<p>Each core can fetch, read, execute and decode it's own instructions
+		<ul>
+			<li>Dual-core processors combine 2 CPUs in a single unit.</li>
+			<li>Tri-core processors combine 3 CPUs in a single unit.</li>
+			<li>Quad-core processors combine 4 CPUs in a single unit.</li>
+			<li>Hexa-core processors combine 6 CPUs in a single unit.</li>
+			<li>Octa-core processors combine 8 CPUs in a single unit.</li>
+			<li>Duodec-core processors combine 12 CPUs in a single unit.</li>
+			<li>Hexadeca-core processors combine 16 CPUs in a single unit.</li>
+		</ul>
+		
+		<p>LLC - Last Level Cache (Level 3) - typically shared by all the cores</p>
+		
+		<h2>Memory controller</h2>
+		<p>acts as the intermediary between the CPU and<br>main memory, managing all data transfers, <br>ensuring accurate and efficient reads and writes</p>
+		
+		<h2>Piplelines</h2>
+		<p>Pipeliningis a technique where the CPU overlaps<br> the execution of multiple instructionsto improve<br>performance, rather than executing one <br>instruction at a time from start to finish.</p>
+		
+		<h2>CPU Cooler</h2>
+		<ul>
+			<li>Computers are based off of microsopuc transistors.</li>
+			<li>Every time one of these transistors switches from one to another, it generates a small amount of heat</li>
+			<li>Multiply this small amount of heat over billions of transistors switching billions of times<br>every second, you wind up with an amount of heat<br>that you need to actively manage.</li>
+			<li>You can use air cooling, liquid cooling or passing cooling (a heat sink)</li>
+		</ul>
+		
+		<h2>GPU</h2>
+		<ul>
+			<li>A GPU is a specialized processor designed to hgandle graphics and parallele computations.</li>
+			<li>It works alongside the cpu but is optimized for tasks that involved processing many operations simultanoeusly</li>
+			<li>Originally designed for rendering images and video, modern GPUs are also used for AI, scientific computing, and cryptocurrency mining.</li>
+		</ul>
+	</body>
+</html>
 	
-	<h2>Registers:</h2>
-	<ul>
-		<li>Small</li>
-		<li>High speed storage located inside the CPU used to hold data, instructions and addresses</li>
-	</ul>
 	
-	<h2>Control Unit (CU)</h2>
-	<ul>
-		<li>It orchestrats everything like an electrical conducter passing electricity</li>
-		<li>It passes data around</li>
-	</ul>
-	
-	<h2>CPU instruction cycle</h2>
-	<p>Fetch -> Execte -> Decode</p>
-	
-	<h2>Processor Speed</h2>
-	<ul>
-		<li>Speeds are measured in gigahertz (GHz)</li>
-		<li>1 Hertz = 1 clock cycle per second</li>
-		<li>Most processors are near 5 GHz</li>
-	</ul>
-	
-	<h2>Cache</h2>
-	<ul>
-		<li>A small, very fast memory inside or close to the cpu</li>
-		<li>Faster than the RAM</li>
-	</ul>
